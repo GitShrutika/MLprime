@@ -19,3 +19,5 @@ plt.ylabel("pobablity distribution")
 plt.grid(True)
 plt.show()
           #normal distribution
+# square root
+#graph of sin theta
