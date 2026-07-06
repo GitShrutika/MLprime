@@ -1,0 +1,23 @@
+#cross validation
+from sklearn.model_selection import GridSearchCV
+
+classifier=KNeighborsClassifier()
+
+param_grid={"n_neighbors":[3,5,7,9]}
+
+ClassifierCV = GridSearchCV(
+    classifier,
+    param_grid,
+    cv=5
+    )
+
+ClassifierCV.fit(X_train_scaled,y_train)
+
+y_pred=ClassifierCV.predict(X_test_scaled)
+
+print("recall_score:",recall_score(y_test,y_pred))
+print("precision_score:",precision_score(y_test,y_pred))
+print("accuracy_score:",accuracy_score(y_test,y_pred))
+res=pd.DataFrame(ClassifierCV.cv_results_)
+print(res[["param_n_neighbors","mean_test_score"]])
+
