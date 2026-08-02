@@ -13,3 +13,14 @@ cross entropy
 updated weight
 chain rule
 vanishing gradient prodlem
+.sigmoid
+.tanh
+relu and its varients
+.leaky relyu
+optimizers
+.batch GD
+.stochastic GD
+.mini batch GD
+.GD with momentum
+.rms prop
+.adam
