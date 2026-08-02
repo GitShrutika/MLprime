@@ -1,6 +1,15 @@
 deep learning started
-...
-.,.,.,.,.,shrutika hinge link to
 1 aug starting deep learning 
-i have to start it at 27 jul but i am not able to do that at that time there fore i started it at this time
-
+neural network
+.loss function(for single sample error)
+.cost function(dataset error)
+regression
+.mean squared erros(MSE)
+.mean absolute error(MAE)
+loss function for classification problem 
+cross entropy
+.binary class classification 
+.multiclass classification 
+updated weight
+chain rule
+vanishing gradient prodlem
